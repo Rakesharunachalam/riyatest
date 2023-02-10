@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/riyatest/static/css/main.b23044a7.css",
+    "main.js": "/riyatest/static/js/main.1417a2cd.js",
+    "static/media/Poppins-Regular.ttf": "/riyatest/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/riyatest/index.html",
+    "main.b23044a7.css.map": "/riyatest/static/css/main.b23044a7.css.map",
+    "main.1417a2cd.js.map": "/riyatest/static/js/main.1417a2cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23044a7.css",
+    "static/js/main.1417a2cd.js"
+  ]
+}
