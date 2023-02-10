@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: myfont;
+  src: url(assests/Poppins/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+}
+body{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar style */
+.navbar {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 70px;
+  background-color: #023672;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar  h3{
+  height: 80%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.nav-links a:hover{
+color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.navbar img {
+ height: 100%;
 }
+
+.nav-links a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.call-back{
+  margin-right: 5rem;
+  color: white;
+  height: 2.5rem;
+  width: 12rem;
+  background-color: #29303B;
+}
+.call-back h4{
+  justify-content: center;
+  text-align: center;
+  margin-top: 8px;
+  font-size:medium;
+}
+.call-back a{
+  color: white;
+  text-decoration: none;
+}
+.call-back a:hover{
+  color: yellow;
+}
+.banner img{
+  width: 100%;
+}
+/* About section style */
+.about{
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+.about .left{
+  width: 60%;
+  font-family: myfont;
+  padding: 10px 20px;
+}
+.about .left h2{
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #023672;
+  text-shadow: 1px 1px 2px rgb(83, 75, 75), 0 0 25px#023672;
+}
+.about .left h5{
+  font-size: 1.5rem;
+  color: grey;
+}
+.about .left h6{
+  font-size: 1.2rem;
+  color: grey;
+}
+.about .right{
+  width: 40%;
+}
+.about .right img{
+  margin-top: 7rem;
+  margin-left: 4rem;
+}
+
+
+/* Service section style */
+.service{
+  width: 100%;
+  height: fit-content;
+  background-color: #93b9e4;
+}
+.service-tittle{
+  justify-content: center;
+  text-align: center;
+}
+.service-tittle h1{
+  color: #023672;
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px#e5e5e5;
+}
+.service-tittle .devlopment{
+  color: white;
+}
+.service-text{
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+.service-text p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.service-cards{
+  display: flex;
+  justify-content: space-evenly;
+  height: fit-content;
+  margin-top: 4rem;
+}
+.service-cards1{
+  display: flex;
+  justify-content: space-evenly;
+  height: fit-content;
+  margin-top: 4rem;
+  padding-bottom: 30px;
+}
+
+/* Blog Section style */
+.blog{
+  width: 100%;
+  height: fit-content;
+  background-color: #93b9e4;
+}
+.blog-tittle{
+  justify-content: center;
+  text-align: center;
+}
+.blog-tittle h1{
+  color: #023672;
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px#e5e5e5;
+}
+.card-group{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+/* Form section style */
+.form-main{
+  width: 100%;
+ height: fit-content;
+  background-color: #93b9e4;
+  padding-bottom: 20px;
+}
+.form-tittle{
+  justify-content: center;
+  text-align: center;
+}
+.enquiry-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.message{
+  width: 27%;
+  height: fit-content;
+  margin-top: 20px;
+  border-style: none;
+  outline: none;
+  border-radius: 7px;
+}
+.form-group p{
+  color: red;
+  }
+
+  /* Footer section style */
+ .footer{
+  height: 7rem;
+  width: 100%;
+  background-color: #023672;
+  color: white;
+  position: relative;
+ }
+ .footer h5{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 37%;
+ }
+ .footer ul a{
+  padding-top: 30px;
+ }
+ .footer .nav-links a:hover{
+  color: yellow;
+ }
